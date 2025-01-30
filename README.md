@@ -24,7 +24,8 @@ Neo ExoSphyre is an AI-driven project for detecting and tracking Near-Earth Obje
                          width="140" height="140"
                          style="border-radius: 50%;" />
                 </a>
-                <br>
+                
+<br>
                 <strong><a href="https://github.com/Niloy-Aiml34" style="text-decoration: none; color: #61dafb;">Niloy-Aiml34</a></strong>
             </td>
             <td align="center" style="border: none; text-align: center; padding: 10px;">
