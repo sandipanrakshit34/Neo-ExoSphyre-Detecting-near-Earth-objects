@@ -49,7 +49,7 @@ By using a combination of data analysis, visualization, and simulation, this too
 </div>
 
 
-### Near-Earth Object (NEO) Detection Simulation
+### Near-Earth Object (NEO) Detection & Simulation
 
 ## Key Features
 
