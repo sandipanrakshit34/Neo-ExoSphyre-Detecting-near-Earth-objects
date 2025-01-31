@@ -1,6 +1,8 @@
 # Neo-ExoSphyre-Detecting-near-Earth-objects
 Neo ExoSphyre is an AI-driven project for detecting and tracking Near-Earth Objects (NEOs) like asteroids and comets. Using machine learning, it processes data to predict NEO trajectories and assess potential collision risks.  
 
+<center> <img src = "Assets/PIA00136~orig.jpg" width = 100%>
+
 ## Contributors:
 
 <br/>
@@ -41,4 +43,57 @@ Neo ExoSphyre is an AI-driven project for detecting and tracking Near-Earth Obje
     </table>
 </div>
 
+# Near-Earth Object (NEO) Detection Simulation
+
+## Project Overview
+
+The **Near-Earth Object (NEO) Detection Simulation** project aims to optimize the observation strategy of NEOs by simulating their detection based on different telescope properties and observational parameters. With the growing catalog of NEOs (currently over 30,000), efficient detection and monitoring are crucial for planetary defense and space exploration. This project focuses on the use of Python to create a comprehensive tool that allows astronomers and space enthusiasts to explore the visibility and detection of NEOs based on various factors such as telescope settings, camera properties, and sky conditions.
+
+By using a combination of data analysis, visualization, and simulation, this tool helps optimize survey strategies for NEO detection. The project covers the processing of NEO data, generating sky maps, simulating telescope observation settings, and computing detection probabilities. It provides valuable insights into how telescope configurations affect the discovery rate of NEOs and helps identify regions in the sky that are most promising for NEO surveys.
+
+## Key Features
+
+- **Interactive Sky Maps**: Utilize **ipywidgets** and **matplotlib** to create dynamic visualizations of NEOs, filtering them by properties such as apparent magnitude, class, and angular distance to the Sun.
+- **NEO Population Modeling**: Incorporates NEO population models to simulate and analyze the distribution of NEOs, taking into account their dynamical and physical properties.
+- **Detection Simulation**: Simulate NEO visibility and detection rates based on varying telescope parameters like exposure time, pixel size, and limiting magnitude.
+- **Data Processing and Database**: Efficiently parse, store, and query NEO data in an **SQLite** database for easy access and analysis.
+
+## Technologies Used
+
+- **Python**: The core programming language used for all data processing, simulation, and visualization tasks.
+- **SQLite**: A lightweight database to store and manage NEO data, including orbital elements and physical parameters.
+- **Seaborn**: Used for statistical visualization, allowing for deep analysis of NEO properties like size distribution and orbital elements.
+- **Matplotlib**: For generating static, animated, and interactive visualizations such as histograms, scatter plots, and sky maps.
+- **Ipywidgets**: Enables interactive filtering and visualization within Jupyter Notebooks for real-time exploration of NEO data.
+- **Scikit-learn**: Implements **Kernel Density Estimators (KDEs)** to compute NEO detection probability functions on sky maps, helping identify regions of interest.
+
+## How It Works
+
+1. **Data Collection and Database Creation**: 
+   The project begins by downloading the latest NEO data from the **ESA NEODyS website**. This data includes orbital elements and physical parameters for NEOs, which are then parsed and stored in an **SQLite** database for efficient querying and analysis.
+
+2. **NEO Classification**: 
+   The NEOs are classified into four major categories—**Amors**, **Apollos**, **Atens**, and **Atiras**—based on their astro-dynamical properties. This classification helps in better understanding the observational biases associated with different NEO types.
+
+3. **Apparent Magnitude Calculation**: 
+   Using the **H-G function**, the apparent magnitude of NEOs is computed to estimate their brightness as seen from Earth. This calculation is essential for determining which NEOs are observable based on the limiting magnitude of telescopes.
+
+4. **Sky Map Visualization**: 
+   The project provides an interactive **sky map** where users can filter NEOs based on various criteria such as apparent magnitude, angular distance to the Sun, and NEO class. This allows users to explore which regions of the sky are most promising for observation.
+
+5. **Detection Simulation**: 
+   The heart of the project is the simulation of NEO detection, considering different telescope properties like exposure time and pixel size. A **for-loop** is used to simulate the movement and appearance of NEOs over time, and detection rates are calculated based on the telescope’s configuration.
+
+6. **Detection Probability Maps**: 
+   Using **Kernel Density Estimators (KDEs)**, the project generates detection probability maps that display the density of NEOs in the sky. These maps help identify areas of the sky with higher concentrations of NEOs, optimizing observation strategies.
+
+7. **Bias Analysis and Optimization**: 
+   The project also investigates potential biases in the detection process, including those based on NEO population models and observational settings. By analyzing how telescope properties influence detection rates, the project helps improve future NEO survey strategies.
+
+## Installation
+
+To run the project, you'll need to have Python 3.x installed along with the required libraries. You can install all dependencies using the following command:
+
+```bash
+pip install -r requirements.txt
 
