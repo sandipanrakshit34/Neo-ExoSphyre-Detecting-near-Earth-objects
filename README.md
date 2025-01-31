@@ -3,6 +3,11 @@ Neo ExoSphyre is an AI-driven project for detecting and tracking Near-Earth Obje
 
 <center> <img src = "Assets/PIA00136~orig.jpg" width = 100%>
 
+## Project Overview
+
+The **Near-Earth Object (NEO) Detection Simulation** project aims to optimize the observation strategy of NEOs by simulating their detection based on different telescope properties and observational parameters. With the growing catalog of NEOs (currently over 30,000), efficient detection and monitoring are crucial for planetary defense and space exploration. This project focuses on the use of Python to create a comprehensive tool that allows astronomers and space enthusiasts to explore the visibility and detection of NEOs based on various factors such as telescope settings, camera properties, and sky conditions.
+
+By using a combination of data analysis, visualization, and simulation, this tool helps optimize survey strategies for NEO detection. The project covers the processing of NEO data, generating sky maps, simulating telescope observation settings, and computing detection probabilities. It provides valuable insights into how telescope configurations affect the discovery rate of NEOs and helps identify regions in the sky that are most promising for NEO surveys.
 ## Contributors:
 
 <br/>
@@ -43,13 +48,8 @@ Neo ExoSphyre is an AI-driven project for detecting and tracking Near-Earth Obje
     </table>
 </div>
 
-# Near-Earth Object (NEO) Detection Simulation
 
-## Project Overview
-
-The **Near-Earth Object (NEO) Detection Simulation** project aims to optimize the observation strategy of NEOs by simulating their detection based on different telescope properties and observational parameters. With the growing catalog of NEOs (currently over 30,000), efficient detection and monitoring are crucial for planetary defense and space exploration. This project focuses on the use of Python to create a comprehensive tool that allows astronomers and space enthusiasts to explore the visibility and detection of NEOs based on various factors such as telescope settings, camera properties, and sky conditions.
-
-By using a combination of data analysis, visualization, and simulation, this tool helps optimize survey strategies for NEO detection. The project covers the processing of NEO data, generating sky maps, simulating telescope observation settings, and computing detection probabilities. It provides valuable insights into how telescope configurations affect the discovery rate of NEOs and helps identify regions in the sky that are most promising for NEO surveys.
+### Near-Earth Object (NEO) Detection Simulation
 
 ## Key Features
 
