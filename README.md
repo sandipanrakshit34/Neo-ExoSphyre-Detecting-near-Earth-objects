@@ -3,11 +3,26 @@ Neo ExoSphyre is an AI-driven project for detecting and tracking Near-Earth Obje
 
 <center> <img src = "Assets/PIA00136~orig.jpg" width = 100%>
 
-## Project Overview
+    ## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Project Index](#project-index)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+- [Project Roadmap](#project-roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
+# overview
 
 The **Near-Earth Object (NEO) Detection Simulation** project aims to optimize the observation strategy of NEOs by simulating their detection based on different telescope properties and observational parameters. With the growing catalog of NEOs (currently over 30,000), efficient detection and monitoring are crucial for planetary defense and space exploration. This project focuses on the use of Python to create a comprehensive tool that allows astronomers and space enthusiasts to explore the visibility and detection of NEOs based on various factors such as telescope settings, camera properties, and sky conditions.
 
 By using a combination of data analysis, visualization, and simulation, this tool helps optimize survey strategies for NEO detection. The project covers the processing of NEO data, generating sky maps, simulating telescope observation settings, and computing detection probabilities. It provides valuable insights into how telescope configurations affect the discovery rate of NEOs and helps identify regions in the sky that are most promising for NEO surveys.
+
 ## Contributors:
 
 <br/>
@@ -49,14 +64,24 @@ By using a combination of data analysis, visualization, and simulation, this too
 </div>
 
 
-### Near-Earth Object (NEO) Detection & Simulation
+## Features
+- **Interactive Sky Maps**: Visualize NEOs dynamically using `ipywidgets` and `matplotlib`, filtering by properties like apparent magnitude, class, and angular distance to the Sun.
+- **NEO Population Modeling**: Simulate and analyze NEO distribution using population models, considering dynamical and physical properties.
+- **Detection Simulation**: Simulate NEO visibility and detection rates based on telescope parameters such as exposure time, pixel size, and limiting magnitude.
+- **Data Processing and Database**: Efficiently parse, store, and query NEO data in an SQLite database for streamlined analysis.
+- **Detection Probability Maps**: Use Kernel Density Estimators (KDEs) from `scikit-learn` to generate detection probability maps, identifying regions of interest for NEO surveys.
+- **Bias Analysis and Optimization**: Investigate detection biases and optimize future NEO survey strategies.
 
-## Key Features
-
-- **Interactive Sky Maps**: Utilize **ipywidgets** and **matplotlib** to create dynamic visualizations of NEOs, filtering them by properties such as apparent magnitude, class, and angular distance to the Sun.
-- **NEO Population Modeling**: Incorporates NEO population models to simulate and analyze the distribution of NEOs, taking into account their dynamical and physical properties.
-- **Detection Simulation**: Simulate NEO visibility and detection rates based on varying telescope parameters like exposure time, pixel size, and limiting magnitude.
-- **Data Processing and Database**: Efficiently parse, store, and query NEO data in an **SQLite** database for easy access and analysis.
+## Project Structure
+The project is structured into several key components:
+- **Data Collection**: Download and parse NEO data from the ESA NEODyS website.
+- **Database Creation**: Store NEO data in an SQLite database for efficient querying.
+- **NEO Classification**: Classify NEOs into categories (Amors, Apollos, Atens, Atiras) based on astro-dynamical properties.
+- **Apparent Magnitude Calculation**: Compute NEO brightness using the H-G function.
+- **Sky Map Visualization**: Create interactive sky maps for real-time exploration of NEO data.
+- **Detection Simulation**: Simulate NEO detection based on telescope configurations.
+- **Detection Probability Maps**: Generate KDE-based maps to identify high-density NEO regions.
+- **Bias Analysis**: Analyze detection biases and optimize observation strategies
 
 ## Technologies Used
 
