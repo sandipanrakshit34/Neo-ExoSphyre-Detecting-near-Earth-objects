@@ -95,7 +95,7 @@ The project is structured into several key components:
 ## How It Works
 
 1. **Data Collection and Database Creation**: 
-   The project begins by downloading the latest NEO data from the **ESA NEODyS website**. This data includes orbital elements and physical parameters for NEOs, which are then parsed and stored in an **SQLite** database for efficient querying and analysis.
+   The project begins by downloading the latest NEO data from the **ESA NEODyS website**. This data includes orbital elements and physical parameters for NEOs, which are then parsed and stored in an **SQLite** database for efficient querying and analysis.    
 
 2. **NEO Classification**: 
    The NEOs are classified into four major categories—**Amors**, **Apollos**, **Atens**, and **Atiras**—based on their astro-dynamical properties. This classification helps in better understanding the observational biases associated with different NEO types.
