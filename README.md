@@ -70,7 +70,7 @@ By using a combination of data analysis, visualization, and simulation, this too
 - **Detection Simulation**: Simulate NEO visibility and detection rates based on telescope parameters such as exposure time, pixel size, and limiting magnitude.
 - **Data Processing and Database**: Efficiently parse, store, and query NEO data in an SQLite database for streamlined analysis.
 - **Detection Probability Maps**: Use Kernel Density Estimators (KDEs) from `scikit-learn` to generate detection probability maps, identifying regions of interest for NEO surveys.
-- **Bias Analysis and Optimization**: Investigate detection biases and optimize future NEO survey strategies.
+- **Bias Analysis and Optimization**: Investigate detection biases and optimize future NEO survey strategies. 
 
 ## Project Structure
 The project is structured into several key components:
