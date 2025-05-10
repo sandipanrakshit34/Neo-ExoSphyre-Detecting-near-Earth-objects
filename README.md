@@ -104,7 +104,7 @@ The project is structured into several key components:
    The NEOs are classified into four major categories—**Amors**, **Apollos**, **Atens**, and **Atiras**—based on their astro-dynamical properties. This classification helps in better understanding the observational biases associated with different NEO types.
 3. **Apparent Magnitude Calculation**:
    Using the **H-G function**, the apparent magnitude of NEOs is computed to estimate their brightness as seen from Earth. This calculation is essential for determining which NEOs are observable based on the limiting magnitude of telescopes.
-4. **Sky Map Visualization**:
+4. **Sky Map Visualization**: 
    The project provides an interactive **sky map** where users can filter NEOs based on various criteria such as apparent magnitude, angular distance to the Sun, and NEO class. This allows users to explore which regions of the sky are most promising for observation.
 5. **Detection Simulation**:
    The heart of the project is the simulation of NEO detection, considering different telescope properties like exposure time and pixel size. A **for-loop** is used to simulate the movement and appearance of NEOs over time, and detection rates are calculated based on the telescope’s configuration.
