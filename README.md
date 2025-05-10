@@ -28,7 +28,7 @@ By using a combination of data analysis, visualization, and simulation, this too
 ## Contributors:
 
 <br/>
-<div align="left">
+<div align="center">
     <table style="border-collapse: collapse; border: none;">
         <tr>
             <td align="center" style="border: none; text-align: center; padding: 10px;">
